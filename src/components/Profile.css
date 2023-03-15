@@ -90,15 +90,6 @@
   .width-24-86-vw {
     width: auto;
   }
-
-  .h2 {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.375rem;
-    line-height: 110%;
-    text-align: center;
-  }
 }
 
 @media only screen and (max-width: 816px) {

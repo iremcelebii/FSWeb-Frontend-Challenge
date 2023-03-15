@@ -43,6 +43,15 @@
   .gap-2rem-max-width-1060 {
     gap: 2rem;
   }
+
+  .h2 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.375rem;
+    line-height: 110%;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 890px) {
