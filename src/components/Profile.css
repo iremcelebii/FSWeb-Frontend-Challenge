@@ -67,6 +67,9 @@
 .gap-1-94-vw {
   gap: 1.94vw;
 }
+.width-9-7-vw {
+  width: 9.7vw;
+}
 
 @media only screen and (max-width: 1032px) {
   .flex-direction-column-max-width-1032px {
@@ -86,6 +89,15 @@
   }
   .width-24-86-vw {
     width: auto;
+  }
+
+  .h2 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.375rem;
+    line-height: 110%;
+    text-align: center;
   }
 }
 

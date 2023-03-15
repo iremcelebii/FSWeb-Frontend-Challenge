@@ -16,10 +16,21 @@ export default function Footer() {
       </p>
       <p className="p-mail-footer">iremcelebi2404@gmail.com</p>
       <div className="flex gap-2-014rem">
-        <img src={twitter} alt="twitter"></img>
-        <img src={codepen} alt="codepen"></img>
-        <img src={gmail} alt="gmail"></img>
-        <img src={instagram} alt="instagram"></img>
+        <a target="_blank" href="https://mobile.twitter.com/irreversibleirm">
+          <img src={twitter} alt="twitter"></img>
+        </a>
+        <a
+          target="_blank"
+          href="https://codesandbox.io/dashboard/drafts?workspace=b4a08025-50fc-4b6e-984b-91c85002d21f"
+        >
+          <img src={codepen} alt="codepen"></img>
+        </a>
+        <a target="_blank" href="mailto:iremcelebi2404@gmail.com">
+          <img src={gmail} alt="gmail"></img>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/iiremcelebii/">
+          <img src={instagram} alt="instagram"></img>
+        </a>
       </div>
     </div>
   );
