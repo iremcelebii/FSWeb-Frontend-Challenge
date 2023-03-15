@@ -13,6 +13,6 @@ export const skillsData1 = [
 
 export const skillsData2 = [
   { isim: "NODE", image: node },
-  { isim: "VS CODE", image: vscode },
+  { isim: "VS-CODE", image: vscode },
   { isim: "FIGMA", image: figma },
 ];

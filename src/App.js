@@ -1,11 +1,11 @@
-// import logo from "./logo.svg";
+import { Route, Switch, Redirect } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-
+import SkillItem from "./components/SkillItem";
 function App() {
   return (
     <div>
@@ -15,11 +15,14 @@ function App() {
         </div>
       </div>
       <main>
-        <div>
-          <div className="skills-profile-padding-top-bottom component-padding-right-left">
+        <Switch>
+          <Route exact path="/">
             <Skills />
-          </div>
-        </div>
+          </Route>
+          <Route path="/:isim">
+            <SkillItem />
+          </Route>
+        </Switch>
 
         <div className="bg-mor">
           <div className=" skills-profile-padding-top-bottom component-padding-right-left">
