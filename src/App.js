@@ -14,22 +14,24 @@ function App() {
           <Header />
         </div>
       </div>
-      <div>
-        <div className="skills-profile-padding-top-bottom component-padding-right-left">
-          <Skills />
+      <main>
+        <div>
+          <div className="skills-profile-padding-top-bottom component-padding-right-left">
+            <Skills />
+          </div>
         </div>
-      </div>
 
-      <div className="bg-mor">
-        <div className=" skills-profile-padding-top-bottom component-padding-right-left">
-          <Profile />
+        <div className="bg-mor">
+          <div className=" skills-profile-padding-top-bottom component-padding-right-left">
+            <Profile />
+          </div>
         </div>
-      </div>
-      <div className="bg-yesil">
-        <div className="component-padding-right-left project-padding-top-bottom">
-          <Projects />
+        <div className="bg-yesil">
+          <div className="component-padding-right-left project-padding-top-bottom">
+            <Projects />
+          </div>
         </div>
-      </div>
+      </main>
       <div>
         <div className="component-footer-padding-right-left footer-padding-top-bottom">
           <Footer />

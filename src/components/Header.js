@@ -4,7 +4,7 @@ import linkedin from "../resimler/LinkedIn.png";
 import "./Header.css";
 export default function Header() {
   return (
-    <div className="text-align-center-max-width-415 ">
+    <header className="text-align-center-max-width-415 ">
       <h1 className="h1 color-yesil">İREM ÇELEBİ</h1>
       <div className="flex gap-5-763vw margin-top-2-44rem flex-direction-column-max-width-415 ">
         <div className="align-self-end">
@@ -41,6 +41,6 @@ export default function Header() {
           <img className="header-resim " src={resimHeader}></img>
         </div>
       </div>
-    </div>
+    </header>
   );
 }

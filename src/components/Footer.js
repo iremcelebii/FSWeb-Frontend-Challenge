@@ -6,7 +6,7 @@ import gmail from "../resimler/gmail-logo.png";
 import "./Footer.css";
 export default function Footer() {
   return (
-    <div className="flex flex-direction-column align-items-center gap-1-5rem">
+    <footer className="flex flex-direction-column align-items-center gap-1-5rem">
       <div></div>
       <h2 className="h2-footer color-mor text-align-center">
         Send me a message!
@@ -32,6 +32,6 @@ export default function Footer() {
           <img src={instagram} alt="instagram"></img>
         </a>
       </div>
-    </div>
+    </footer>
   );
 }
