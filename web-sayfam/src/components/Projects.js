@@ -7,11 +7,16 @@ export default function Projects() {
     <div>
       <h2 className="h2 color-mor">Projects</h2>
 
-      <div className="bg-white margin-top-bottom   flex align-items-center border-radius-shadow">
-        <img src={project1}></img>
+      <div className="bg-white margin-top-bottom width-66-67vw   flex align-items-center border-radius-shadow flex-direction-column-max-width-960px">
+        <img
+          className="border-radius-0-75rem width-32vw-max-width-960px"
+          src={project1}
+        ></img>
 
-        <div className="margin-left-3-33-vw margin-right-2-22vw flex flex-direction-column gap-1-5rem">
-          <h3 className="h3-project color-mor">Workintech</h3>
+        <div className="margin-left-3-33-vw margin-right-2-22vw flex flex-direction-column gap-1-5rem ">
+          <h3 className="h3-project color-mor margin-top-max-width-960px">
+            Workintech
+          </h3>
           <p className="p-project ">
             A simple, customizable, minimal setup cookie plugin that allows your
             users to select which cookies to accept or decline. This was created
@@ -19,7 +24,7 @@ export default function Projects() {
             package and the git repository makes any type of customization to
             code and themes possible.
           </p>
-          <div className="flex gap-0-04166vw">
+          <div className="flex gap-0-04166vw justify-content-center-max-width-960px">
             <div className="bg-mor  border-radius-1-4375 padding-buton-project ">
               <p className="buton-yazi-project">react</p>
             </div>
@@ -30,7 +35,7 @@ export default function Projects() {
               <p className="buton-yazi-project">react</p>
             </div>
           </div>
-          <div className="flex gap-1-04166vw">
+          <div className="flex gap-1-04166vw justify-content-center-max-width-960px ">
             <a target="_blank" href="https://github.com/iremcelebii">
               <p className="p-link-project">View Site</p>
             </a>
@@ -40,11 +45,16 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="bg-white  flex align-items-center border-radius-shadow">
-        <img src={project1}></img>
+      <div className="bg-white  flex align-items-center border-radius-shadow flex-direction-column-max-width-960px">
+        <img
+          className="border-radius-0-75rem width-32vw-max-width-960px"
+          src={project2}
+        ></img>
 
         <div className="margin-left-3-33-vw margin-right-2-22vw flex flex-direction-column gap-1-5rem">
-          <h3 className="h3-project color-mor">Workintech</h3>
+          <h3 className="h3-project color-mor margin-top-max-width-960px">
+            Workintech
+          </h3>
           <p className="p-project ">
             A simple, customizable, minimal setup cookie plugin that allows your
             users to select which cookies to accept or decline. This was created
@@ -52,7 +62,7 @@ export default function Projects() {
             package and the git repository makes any type of customization to
             code and themes possible.
           </p>
-          <div className="flex gap-0-04166vw">
+          <div className="flex gap-0-04166vw justify-content-center-max-width-960px">
             <div className="bg-mor  border-radius-1-4375 padding-buton-project ">
               <p className="buton-yazi-project">react</p>
             </div>
@@ -63,7 +73,7 @@ export default function Projects() {
               <p className="buton-yazi-project">react</p>
             </div>
           </div>
-          <div className="flex gap-1-04166vw">
+          <div className="flex gap-1-04166vw justify-content-center-max-width-960px">
             <a target="_blank" href="https://github.com/iremcelebii">
               <p className="p-link-project">View Site</p>
             </a>

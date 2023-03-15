@@ -6,7 +6,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.66vw;
   line-height: 150%;
   text-transform: uppercase;
   color: #777777;
@@ -17,7 +17,7 @@
 .gap-2-1875-rem {
   gap: 2.1875rem;
 }
-.width-206vw {
+.width-8-33vw {
   width: 8.33vw;
 }
 .width-21-84vw {
@@ -39,5 +39,28 @@
 
   .justify-content-space-between-max-width-1060 {
     justify-content: space-between;
+  }
+  .gap-2rem-max-width-1060 {
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .flex-direction-column-max-width-890px {
+    flex-direction: column;
+  }
+
+  .logo-yazi {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #777777;
+  }
+
+  .width-8-33vw {
+    width: 10.33vw;
   }
 }

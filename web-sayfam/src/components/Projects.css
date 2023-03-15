@@ -7,6 +7,10 @@
     0px 18px 88px -4px rgba(24, 39, 75, 0.14);
   border-radius: 0.75rem;
 }
+
+.border-radius-0-75rem {
+  border-radius: 0.75rem;
+}
 .h3-project {
   font-family: "Inter";
   font-style: normal;
@@ -50,9 +54,7 @@
   font-size: 1rem;
   line-height: 1rem;
   /* or 100% */
-
   text-decoration-line: underline;
-
   color: #120b39;
 }
 
@@ -79,4 +81,23 @@
 
 .gap-1-04166vw {
   gap: 1.04166vw;
+}
+.width-66-67vw {
+  width: 66.67vw;
+}
+
+@media only screen and (max-width: 960px) {
+  .flex-direction-column-max-width-960px {
+    flex-direction: column-reverse;
+  }
+  .margin-top-max-width-960px {
+    margin-top: 1rem;
+  }
+  .justify-content-center-max-width-960px {
+    justify-content: center;
+  }
+
+  .width-32vw-max-width-960px {
+    width: 32vw;
+  }
 }
