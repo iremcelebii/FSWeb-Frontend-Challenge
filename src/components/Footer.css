@@ -1,0 +1,37 @@
+.p-footer {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 150%;
+  /* or 36px */
+  text-align: center;
+  color: #120b39;
+}
+.p-mail-footer {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+  color: #4731d3;
+}
+
+.gap-1-5rem {
+  gap: 1.5rem;
+}
+
+.gap-2-014rem {
+  gap: 2.014rem;
+}
+
+.h2-footer {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  /* identical to box height, or 150% */
+}
