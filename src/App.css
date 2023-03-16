@@ -175,6 +175,9 @@ table {
 .text-decoration-none {
   text-decoration-line: none;
 }
+.text-align-initial {
+  text-align: left;
+}
 
 .inline {
   display: inline;

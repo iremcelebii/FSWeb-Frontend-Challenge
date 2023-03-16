@@ -6,6 +6,11 @@
   visibility: hidden;
 }
 
-.margin-top-1-rem {
-  margin-top: 1rem;
+.ek-yazi {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  color: #777777;
 }

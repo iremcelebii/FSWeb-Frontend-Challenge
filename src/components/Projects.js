@@ -9,7 +9,7 @@ export default function Projects() {
       {projects.map((project) => (
         <div
           key={project.isim}
-          className="bg-white margin-top-bottom width-66-67vw   flex align-items-center border-radius-shadow flex-direction-column-max-width-960px"
+          className="bg-white margin-top-bottom   flex align-items-center border-radius-shadow flex-direction-column-max-width-960px"
         >
           <img
             className="border-radius-0-75rem width-32vw-max-width-960px"

@@ -5,39 +5,46 @@ export default function Profile() {
   return (
     <div>
       <h2 className="h2 color-yesil">Profile</h2>
+
       <div className="flex gap-1-94-vw margin-top-2-0625-rem align-items-center flex-direction-column-max-width-1032px ">
-        <div className="flex gap-1-94-vw align-items-center flex-direction-column-max-width-816px">
-          <div className="basic-information-width flex flex-direction-column gap-1-2824rem  width-auto-max-width-816px">
-            <h3 className="h3-info text-align-center-max-width-816px  ">
+        <div className="flex gap-1-94-vw gap-8-max-width-1032px  align-items-center flex-direction-column-max-width-816px">
+          <div className="basic-information-width  width-auto-max-width-816px">
+            <h3 className="h3-info margin-basic-info text-align-center-max-width-816px ">
               Basic Information
             </h3>
-            <div className="p-profile-info flex gap-0-695 justify-content-center-max-width-816px ">
-              <p className="width-7-01-vw ">Birth Date</p>
-              <p className="color-white width-42-63vw-max-width-816px ">
-                25/04/1997
-              </p>
-            </div>
-            <div className="p-profile-info flex gap-0-695 justify-content-center-max-width-816px">
-              <p className="width-7-01-vw">City of Residence</p>
-              <p className="color-white width-42-63vw-max-width-816px ">
-                Istanbul
-              </p>
-            </div>
 
-            <div className="p-profile-info flex gap-0-695 justify-content-center-max-width-816px">
-              <p className="width-7-01-vw">Education</p>
-              <p className="color-white width-9-7-vw width-42-63vw-max-width-816px ">
-                ITU - Engineering Management, 2023
-                <br />
-                (Master’s Degree)
-              </p>
-            </div>
-            <div className="p-profile-info flex gap-0-695 justify-content-center-max-width-816px">
-              <p className="width-7-01-vw">Preferred Role</p>
-              <p className="color-white width-42-63vw-max-width-816px ">
-                Frontend, UI
-              </p>
-            </div>
+            <table className="p-profile-info ">
+              <tr>
+                <th className="text-align-initial padding-bottom-basic-info">
+                  Birth Date
+                </th>
+                <th className="color-white text-align-initial padding-left-basic-info padding-bottom-basic-info">
+                  25/04/1997
+                </th>
+              </tr>
+              <tr>
+                <th className="text-align-initial adding-bottom-basic-info">
+                  City of Residence
+                </th>
+                <th className="color-white text-align-initial padding-left-basic-info padding-bottom-basic-info">
+                  Istanbul
+                </th>
+              </tr>
+              <tr>
+                <th className="text-align-initial padding-bottom-basic-info padding-bottom-basic-info">
+                  Education
+                </th>
+                <th className="color-white text-align-initial padding-left-basic-info padding-bottom-basic-info ">
+                  ITU - Engineering Management, 2023 (Master’s Degree)
+                </th>
+              </tr>
+              <tr>
+                <th className="text-align-initial">Preferred Role</th>
+                <th className="color-white text-align-initial padding-left-basic-info">
+                  Frontend, UI
+                </th>
+              </tr>
+            </table>
           </div>
           <div>
             <img
@@ -48,11 +55,11 @@ export default function Profile() {
           </div>
         </div>
 
-        <div className="flex flex-direction-column gap-1-8171rem about-me-width">
-          <h3 className="h3-about text-align-center-max-width-816px ">
+        <div className="">
+          <h3 className="h3-about margin-bottom-about-me text-align-center-max-width-816px  ">
             About Me
           </h3>
-          <p className="p-profile-about width-24-86-vw text-align-center-max-width-816px">
+          <p className="p-profile-about  text-align-center-max-width-816px">
             I have started my academic career with Industrial Engineering. I am
             doing a master's degree in Engineering Management to specialize in
             management. <br />

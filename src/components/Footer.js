@@ -14,7 +14,10 @@ export default function Footer() {
       <p className="p-footer">
         Got a question or proposal, or just want to say hello? Go ahead.
       </p>
-      <p className="p-mail-footer">iremcelebi2404@gmail.com</p>
+      <a target="_blank" href="mailto:iremcelebi2404@gmail.com">
+        <p className="p-mail-footer">iremcelebi2404@gmail.com</p>
+      </a>
+
       <div className="flex gap-2-014rem">
         <a target="_blank" href="https://mobile.twitter.com/irreversibleirm">
           <img src={twitter} alt="twitter"></img>

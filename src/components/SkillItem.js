@@ -63,9 +63,7 @@ export default function SkillItem(props) {
           ))}
         </div>
       </div>
-      <div className="logo-yazi margin-top-1-rem">
-        {filtelenmis[0].aciklama}
-      </div>
+      <div className="ek-yazi margin-top-1-rem">{filtelenmis[0].aciklama}</div>
     </div>
   );
 }

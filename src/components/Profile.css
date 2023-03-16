@@ -3,7 +3,7 @@
 }
 
 .profile-foto-width {
-  width: 24.1666vw;
+  width: 20.3vw;
 }
 .about-me-width {
   width: 20.21875vw;
@@ -75,13 +75,29 @@
   width: 9.7vw;
 }
 
-@media only screen and (max-width: 1187px) {
+.padding-left-basic-info {
+  padding-left: 0.6944vw;
+}
+
+.padding-bottom-basic-info {
+  padding-bottom: 1.667vw;
+}
+
+.margin-basic-info {
+  margin-bottom: 1.5rem;
+}
+
+.margin-bottom-about-me {
+  margin-bottom: 1.19rem;
+}
+
+@media only screen and (max-width: 1338px) {
   .flex-direction-column-max-width-1032px {
     flex-direction: column;
   }
 
   .basic-information-width {
-    width: 25vw;
+    width: 30vw;
   }
 
   .profile-foto-width {
@@ -96,14 +112,19 @@
   .gap-0-695 {
     gap: 8.695vw;
   }
+
+  .gap-8-max-width-1032px {
+    gap: 9vw;
+  }
+
+  .text-align-center-max-width-1032px {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 1061px) {
   .flex-direction-column-max-width-816px {
     flex-direction: column;
-  }
-  .text-align-center-max-width-816px {
-    text-align: center;
   }
 
   .basic-information-width {
@@ -121,5 +142,8 @@
   }
   .width-7-01-vw {
     width: 6vw;
+  }
+  .text-align-center-max-width-816px {
+    text-align: center;
   }
 }
