@@ -22,12 +22,9 @@ export default function Footer() {
         <a target="_blank" href="https://mobile.twitter.com/irreversibleirm">
           <img src={twitter} alt="twitter"></img>
         </a>
-        <a
-          target="_blank"
-          href="https://codesandbox.io/dashboard/drafts?workspace=b4a08025-50fc-4b6e-984b-91c85002d21f"
-        >
-          <img src={codepen} alt="codepen"></img>
-        </a>
+
+        <img src={codepen} alt="codepen"></img>
+
         <a target="_blank" href="mailto:iremcelebi2404@gmail.com">
           <img src={gmail} alt="gmail"></img>
         </a>
