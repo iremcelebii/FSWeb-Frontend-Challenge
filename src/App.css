@@ -173,7 +173,7 @@ table {
 }
 
 .text-decoration-none {
-  text-decoration: none;
+  text-decoration-line: none;
 }
 
 .inline {

@@ -1,0 +1,7 @@
+.width-50-27 {
+  width: 50.27vw;
+}
+.visibility-hidden {
+  /* display: none; */
+  visibility: hidden;
+}

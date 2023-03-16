@@ -1,4 +1,5 @@
 import { Route, Switch, Redirect } from "react-router-dom";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -7,6 +8,14 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import SkillItem from "./components/SkillItem";
 function App() {
+  const [data, setData] = useState(null);
+  function deneme(e) {
+    setData(e.id);
+    console.log(e.id);
+  }
+
+  console.log("data", data);
+
   return (
     <div>
       <div className="bg-ikili bg-mor-max-width-415 ">
@@ -17,10 +26,10 @@ function App() {
       <main>
         <Switch>
           <Route exact path="/">
-            <Skills />
+            <Skills deneme={deneme} />
           </Route>
           <Route path="/:isim">
-            <SkillItem />
+            <SkillItem data={data} />
           </Route>
         </Switch>
 

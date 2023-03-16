@@ -7,7 +7,7 @@ export default function Profile() {
       <h2 className="h2 color-yesil">Profile</h2>
       <div className="flex gap-1-94-vw margin-top-2-0625-rem align-items-center flex-direction-column-max-width-1032px ">
         <div className="flex gap-1-94-vw align-items-center flex-direction-column-max-width-816px">
-          <div className="profile-context-width flex flex-direction-column gap-1-2824rem  width-auto-max-width-816px">
+          <div className="basic-information-width flex flex-direction-column gap-1-2824rem  width-auto-max-width-816px">
             <h3 className="h3-info text-align-center-max-width-816px  ">
               Basic Information
             </h3>
@@ -43,12 +43,12 @@ export default function Profile() {
             <img
               src={profile}
               alt="profile"
-              className="profile-context-width profile-foto "
+              className="profile-foto-width profile-foto "
             ></img>
           </div>
         </div>
 
-        <div className="flex flex-direction-column gap-1-8171rem">
+        <div className="flex flex-direction-column gap-1-8171rem about-me-width">
           <h3 className="h3-about text-align-center-max-width-816px ">
             About Me
           </h3>

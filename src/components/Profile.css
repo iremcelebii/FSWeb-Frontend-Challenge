@@ -1,6 +1,14 @@
-.profile-context-width {
-  width: 20.83vw;
+.basic-information-width {
+  width: 18.402vw;
 }
+
+.profile-foto-width {
+  width: 24.1666vw;
+}
+.about-me-width {
+  width: 20.21875vw;
+}
+
 .margin-top-2-0625-rem {
   margin-top: 2.0625rem;
 }
@@ -53,15 +61,11 @@
   width: 7.01vw;
 }
 .gap-1-8171rem {
-  gap: 1.8171rem;
-}
-
-.width-24-86-vw {
-  width: 24.86vw;
+  gap: 3.12rem;
 }
 
 .gap-1-2824rem {
-  gap: 1.2828rem;
+  gap: 1.2798rem;
 }
 
 .gap-1-94-vw {
@@ -71,52 +75,51 @@
   width: 9.7vw;
 }
 
-@media only screen and (max-width: 1032px) {
+@media only screen and (max-width: 1187px) {
   .flex-direction-column-max-width-1032px {
     flex-direction: column;
   }
 
-  .profile-context-width {
-    width: 30.83vw;
+  .basic-information-width {
+    width: 25vw;
   }
 
+  .profile-foto-width {
+    width: 26.1666vw;
+  }
+  .about-me-width {
+    width: auto;
+  }
+  .gap-1-8171rem {
+    gap: 1.2rem;
+  }
   .gap-0-695 {
     gap: 8.695vw;
   }
-
-  .width-max-width-1032px {
-    flex-direction: column;
-  }
-  .width-24-86-vw {
-    width: auto;
-  }
 }
 
-@media only screen and (max-width: 816px) {
+@media only screen and (max-width: 1061px) {
   .flex-direction-column-max-width-816px {
     flex-direction: column;
   }
-
-  .width-7-01-vw {
-    width: 16.508vw;
-  }
-  .width-auto-max-width-816px {
-    width: auto;
-  }
-
-  .justify-content-center-max-width-816px {
-    justify-content: center;
-  }
-
-  .width-42-63vw-max-width-816px {
-    width: 42.63vw;
-  }
-
-  .profile-context-width {
-    width: 47.83vw;
-  }
-
   .text-align-center-max-width-816px {
     text-align: center;
+  }
+
+  .basic-information-width {
+    width: 50vw;
+  }
+
+  .profile-foto-width {
+    width: 50vw;
+  }
+  .width-9-7-vw {
+    width: auto;
+  }
+  .gap-0-695 {
+    gap: 19.695vw;
+  }
+  .width-7-01-vw {
+    width: 6vw;
   }
 }
