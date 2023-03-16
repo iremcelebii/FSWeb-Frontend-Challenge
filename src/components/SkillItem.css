@@ -5,3 +5,7 @@
   /* display: none; */
   visibility: hidden;
 }
+
+.margin-top-1-rem {
+  margin-top: 1rem;
+}

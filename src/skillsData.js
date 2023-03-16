@@ -46,6 +46,6 @@ export const skillsData3 = [
   {
     id: 6,
     aciklama:
-      "Redux, uygulama durumunu yönetmek ve merkezileştirmek için açık kaynaklı bir JavaScript kitaplığıdır.",
+      "Figma, macOS ve Windows için masaüstü uygulamaları tarafından etkinleştirilen ek çevrimdışı özelliklerle, web tabanlı bir vektör grafik düzenleyici ve prototip oluşturma aracıdır. ",
   },
 ];

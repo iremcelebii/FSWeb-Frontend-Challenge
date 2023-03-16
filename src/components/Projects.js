@@ -7,7 +7,10 @@ export default function Projects() {
       <h2 className="h2 color-mor">Projects</h2>
 
       {projects.map((project) => (
-        <div className="bg-white margin-top-bottom width-66-67vw   flex align-items-center border-radius-shadow flex-direction-column-max-width-960px">
+        <div
+          key={project.isim}
+          className="bg-white margin-top-bottom width-66-67vw   flex align-items-center border-radius-shadow flex-direction-column-max-width-960px"
+        >
           <img
             className="border-radius-0-75rem width-32vw-max-width-960px"
             src={project.image}

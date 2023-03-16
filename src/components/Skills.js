@@ -13,7 +13,11 @@ export default function Skills(props) {
 
         <div className="flex flex-direction-column  gap-2-1875-rem flex-direction-row-max-width-1060px justify-content-space-between-max-width-1060">
           {skillsData1.map((skill) => (
-            <Link to={`/${skill.isim}`} className="text-decoration-none">
+            <Link
+              to={`/${skill.isim}`}
+              key={skill.id}
+              className="text-decoration-none"
+            >
               <div className="flex align-items-center gap-1-66vw width-21-84vw flex-direction-column-max-width-890px">
                 <img
                   onClick={(e) => deneme(e.target)}
@@ -29,7 +33,11 @@ export default function Skills(props) {
         </div>
         <div className="flex flex-direction-column  gap-2-1875-rem  flex-direction-row-max-width-1060px justify-content-space-between-max-width-1060">
           {skillsData2.map((skill) => (
-            <Link to={`/${skill.isim}`} className="text-decoration-none">
+            <Link
+              to={`/${skill.isim}`}
+              key={skill.id}
+              className="text-decoration-none"
+            >
               <div className="flex align-items-center gap-1-66vw width-21-84vw flex-direction-column-max-width-890px">
                 <img
                   onClick={(e) => deneme(e.target)}

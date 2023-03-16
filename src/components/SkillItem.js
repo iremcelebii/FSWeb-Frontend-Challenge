@@ -14,7 +14,10 @@ export default function SkillItem(props) {
         </Link>
         <div className="flex flex-direction-column  gap-2-1875-rem flex-direction-row-max-width-1060px justify-content-space-between-max-width-1060">
           {skillsData1.map((skill) => (
-            <div className="flex align-items-center gap-1-66vw width-21-84vw flex-direction-column-max-width-890px">
+            <div
+              key={skill.id}
+              className="flex align-items-center gap-1-66vw width-21-84vw flex-direction-column-max-width-890px"
+            >
               <img
                 src={skill.image}
                 alt={skill.isim}
@@ -36,7 +39,10 @@ export default function SkillItem(props) {
         </div>
         <div className="flex flex-direction-column  gap-2-1875-rem  flex-direction-row-max-width-1060px justify-content-space-between-max-width-1060">
           {skillsData2.map((skill) => (
-            <div className="flex align-items-center gap-1-66vw width-21-84vw flex-direction-column-max-width-890px">
+            <div
+              key={skill.id}
+              className="flex align-items-center gap-1-66vw width-21-84vw flex-direction-column-max-width-890px"
+            >
               <img
                 src={skill.image}
                 alt={skill.isim}
@@ -57,7 +63,9 @@ export default function SkillItem(props) {
           ))}
         </div>
       </div>
-      <div>{filtelenmis[0].aciklama}</div>
+      <div className="logo-yazi margin-top-1-rem">
+        {filtelenmis[0].aciklama}
+      </div>
     </div>
   );
 }
