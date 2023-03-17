@@ -9,24 +9,25 @@ export default function SkillItem(props) {
   return (
     <div className="skills-profile-padding-top-bottom component-padding-right-left">
       <div className="flex justify-content-space-between flex-direction-column-max-width-1060px gap-2rem-max-width-1060">
-        <Link to={`/`} className="text-decoration-none">
-          <h2 className="h2 color-mor">Skills</h2>
-        </Link>
+        <h2 className="h2 color-mor">Skills</h2>
+
         <div className="flex flex-direction-column  gap-2-1875-rem flex-direction-row-max-width-1060px justify-content-space-between-max-width-1060">
           {skillsData1.map((skill) => (
             <div
               key={skill.id}
               className="flex align-items-center gap-1-66vw width-21-84vw flex-direction-column-max-width-890px"
             >
-              <img
-                src={skill.image}
-                alt={skill.isim}
-                className={
-                  skill.id == data
-                    ? "logo width-8-33vw"
-                    : "logo width-8-33vw visibility-hidden"
-                }
-              ></img>
+              <Link to={`/`} className="text-decoration-none">
+                <img
+                  src={skill.image}
+                  alt={skill.isim}
+                  className={
+                    skill.id == data
+                      ? "logo width-8-33vw tiklanan-logo"
+                      : "logo width-8-33vw visibility-hidden"
+                  }
+                ></img>
+              </Link>
               <p
                 className={
                   skill.id == data ? "logo-yazi" : "logo-yazi visibility-hidden"
@@ -43,18 +44,22 @@ export default function SkillItem(props) {
               key={skill.id}
               className="flex align-items-center gap-1-66vw width-21-84vw flex-direction-column-max-width-890px"
             >
-              <img
-                src={skill.image}
-                alt={skill.isim}
-                className={
-                  skill.id == data
-                    ? "logo width-8-33vw"
-                    : "logo width-8-33vw visibility-hidden"
-                }
-              ></img>
+              <Link to={`/`} className="text-decoration-none">
+                <img
+                  src={skill.image}
+                  alt={skill.isim}
+                  className={
+                    skill.id == data
+                      ? "logo width-8-33vw tiklanan-logo"
+                      : "logo width-8-33vw visibility-hidden"
+                  }
+                ></img>
+              </Link>
               <p
                 className={
-                  skill.id == data ? "logo-yazi" : "logo-yazi visibility-hidden"
+                  skill.id == data
+                    ? "logo-yazi tiklanan-logo"
+                    : "logo-yazi visibility-hidden"
                 }
               >
                 {skill.isim}
@@ -63,7 +68,7 @@ export default function SkillItem(props) {
           ))}
         </div>
       </div>
-      <div className="ek-yazi margin-top-1-rem">{filtelenmis[0].aciklama}</div>
+      <div className="ek-yazi margin-top-2-rem">{filtelenmis[0].aciklama}</div>
     </div>
   );
 }

@@ -1,9 +1,9 @@
-.width-50-27 {
-  width: 50.27vw;
-}
 .visibility-hidden {
   /* display: none; */
-  visibility: hidden;
+  /* visibility: hidden; */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.5;
 }
 
 .ek-yazi {
@@ -13,4 +13,10 @@
   font-size: 1rem;
   line-height: 150%;
   color: #777777;
+}
+.margin-top-2-rem {
+  margin-top: 2rem;
+}
+.tiklanan-logo {
+  filter: drop-shadow(1px 1px 70px #4731d3) contrast(200%);
 }
